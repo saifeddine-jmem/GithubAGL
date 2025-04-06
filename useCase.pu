@@ -1,0 +1,22 @@
+@startuml
+
+left to right direction
+actor Administrateur
+actor Client
+
+' Cas d'utilisation pour l'administrateur
+Administrateur --> (Gérer les jeux : Ajouter, Modifier, Supprimer)
+Administrateur --> (Gérer les utilisateurs : Ajouter, Modifier, Supprimer)
+Administrateur --> (Se connecter)
+
+' Cas d'utilisation pour le client
+Client --> (S'inscrire / Se connecter)
+Client --> (Parcourir les jeux)
+Client --> (Rechercher des jeux)
+Client --> (Voir les détails des jeux)
+Client --> (Ajouter un jeu au panier)
+Client --> (Consulter le panier)
+Client --> (Modifier le panier)
+Client --> (Passer à la caisse)
+
+@enduml
